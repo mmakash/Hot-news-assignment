@@ -1,0 +1,48 @@
+#all-menu {
+    display: flex;
+    justify-content: center;
+    background: black;
+    padding: 10px 10px;
+}
+
+#all-menu li{
+    list-style-type: none;
+}
+
+#all-menu li a{
+    text-decoration: none;
+    color: #fff;
+}
+.author img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.more a{
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #all-menu {
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    #all-menu li{
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
